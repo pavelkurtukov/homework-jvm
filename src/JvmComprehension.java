@@ -2,7 +2,7 @@ public class JvmComprehension {
     // 0 В Metaspace ClassLoader-ом будут загружены классы и их статические переменные и методы:
     // JvmComprehension - Application ClassLoader
     // Object - Bootstrap ClassLoader
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         // 1 В области памяти StackMemory во фрейме для main() создаётся примитивная переменная i и ей присваивается значение 1
         int i = 1;
 		
